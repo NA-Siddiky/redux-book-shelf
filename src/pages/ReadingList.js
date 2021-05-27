@@ -11,9 +11,10 @@ const ReadingList = (props) => {
   const removeFromList = (bookId) => dispatch(removeBook(bookId));
   const addToFinishedList = (book) => dispatch(finishedBook(book));
 
-  useEffect(() => {
-    console.log(readingBooks);
-  }, []);
+  // useEffect(() => {
+  //   console.log(readingBooks);
+  // }, []);
+
   return (
     <PageLayout>
       {readingBooks?.length ? (
