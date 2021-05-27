@@ -14,7 +14,6 @@ const Discover = () => {
 
     return (
         
-
         <PageLayout>
             {
                 books.map((book) => (<Book key={book.id} book={book} />))
